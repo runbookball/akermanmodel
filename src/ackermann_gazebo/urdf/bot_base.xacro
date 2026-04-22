@@ -275,7 +275,9 @@
         <visual>
         <geometry>
             <box size="0.02 0.05 0.03"/> </geometry>
-        <material name="black"/>
+        <material name="red">
+            <color rgba="1.0 0.0 0.0 1.0" />
+        </material>
         </visual>
         <inertial>
         <mass value="0.01"/>
